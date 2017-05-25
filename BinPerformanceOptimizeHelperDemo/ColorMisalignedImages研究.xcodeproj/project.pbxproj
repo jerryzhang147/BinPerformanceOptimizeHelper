@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		382EDD02C2762C9D09642692 /* libPods-ColorMisalignedImages研究.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CE36FB0D4D4461B1DD2A29 /* libPods-ColorMisalignedImages研究.a */; };
+		E258D8781C69DEF14FAFF546 /* libPods-ColorMisalignedImages研究UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 808A04DF643F7969A8598BD6 /* libPods-ColorMisalignedImages研究UITests.a */; };
+		FA17E6631ED66D7700BB9389 /* BinPerformanceOptimizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17E65B1ED66D7700BB9389 /* BinPerformanceOptimizeHelper.m */; };
+		FA17E6641ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17E65E1ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.m */; };
+		FA17E6651ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17E6601ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.m */; };
+		FA17E6661ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA17E6621ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.m */; };
+		FA596D6E1EC4475C00922C5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA596D6D1EC4475C00922C5A /* main.m */; };
+		FA596D711EC4475C00922C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA596D701EC4475C00922C5A /* AppDelegate.m */; };
+		FA596D741EC4475C00922C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA596D731EC4475C00922C5A /* ViewController.m */; };
+		FA596D771EC4475C00922C5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA596D751EC4475C00922C5A /* Main.storyboard */; };
+		FA596D791EC4475C00922C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA596D781EC4475C00922C5A /* Assets.xcassets */; };
+		FA596D7C1EC4475C00922C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA596D7A1EC4475C00922C5A /* LaunchScreen.storyboard */; };
+		FA596D871EC4475C00922C5A /* ColorMisalignedImages__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA596D861EC4475C00922C5A /* ColorMisalignedImages__UITests.m */; };
+		FA596D921EC4478B00922C5A /* 03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA596D911EC4478B00922C5A /* 03@2x.png */; };
+		FA596D971EC4494200922C5A /* BinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA596D941EC4494200922C5A /* BinViewController.m */; };
+		FA596D981EC4494200922C5A /* BinTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA596D961EC4494200922C5A /* BinTableViewCell.m */; };
+		FA596DD21EC4516E00922C5A /* common_systemshare_fb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA596DD11EC4516E00922C5A /* common_systemshare_fb@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA596D831EC4475C00922C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA596D611EC4475C00922C5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA596D681EC4475C00922C5A;
+			remoteInfo = "ColorMisalignedImages研究";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		400CDCDE31B224945929275B /* Pods-ColorMisalignedImages研究UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMisalignedImages研究UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMisalignedImages研究UITests/Pods-ColorMisalignedImages研究UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E05B578E8B703CC6DC3C6B3 /* Pods-ColorMisalignedImages研究UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMisalignedImages研究UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMisalignedImages研究UITests/Pods-ColorMisalignedImages研究UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		808A04DF643F7969A8598BD6 /* libPods-ColorMisalignedImages研究UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMisalignedImages研究UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F8D74BBEE96824BD6A3332 /* Pods-ColorMisalignedImages研究.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMisalignedImages研究.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMisalignedImages研究/Pods-ColorMisalignedImages研究.release.xcconfig"; sourceTree = "<group>"; };
+		BE3E6E63F67C1E56B9C954B0 /* Pods-ColorMisalignedImages研究.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorMisalignedImages研究.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorMisalignedImages研究/Pods-ColorMisalignedImages研究.debug.xcconfig"; sourceTree = "<group>"; };
+		F0CE36FB0D4D4461B1DD2A29 /* libPods-ColorMisalignedImages研究.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorMisalignedImages研究.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA17E65A1ED66D7700BB9389 /* BinPerformanceOptimizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinPerformanceOptimizeHelper.h; sourceTree = "<group>"; };
+		FA17E65B1ED66D7700BB9389 /* BinPerformanceOptimizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinPerformanceOptimizeHelper.m; sourceTree = "<group>"; };
+		FA17E65C1ED66D7700BB9389 /* BinSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinSingleInstance.h; sourceTree = "<group>"; };
+		FA17E65D1ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BinPerformanceOptimizeHelper.h"; sourceTree = "<group>"; };
+		FA17E65E1ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BinPerformanceOptimizeHelper.m"; sourceTree = "<group>"; };
+		FA17E65F1ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BinPerformanceOptimizeHelper.h"; sourceTree = "<group>"; };
+		FA17E6601ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BinPerformanceOptimizeHelper.m"; sourceTree = "<group>"; };
+		FA17E6611ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BinPerformanceOptimizeHelper.h"; sourceTree = "<group>"; };
+		FA17E6621ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BinPerformanceOptimizeHelper.m"; sourceTree = "<group>"; };
+		FA596D691EC4475C00922C5A /* ColorMisalignedImages研究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorMisalignedImages研究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA596D6D1EC4475C00922C5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA596D6F1EC4475C00922C5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA596D701EC4475C00922C5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA596D721EC4475C00922C5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA596D731EC4475C00922C5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA596D761EC4475C00922C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA596D781EC4475C00922C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA596D7B1EC4475C00922C5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA596D7D1EC4475C00922C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA596D821EC4475C00922C5A /* ColorMisalignedImages研究UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ColorMisalignedImages研究UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA596D861EC4475C00922C5A /* ColorMisalignedImages__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorMisalignedImages__UITests.m; sourceTree = "<group>"; };
+		FA596D881EC4475C00922C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA596D911EC4478B00922C5A /* 03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "03@2x.png"; sourceTree = "<group>"; };
+		FA596D931EC4494200922C5A /* BinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinViewController.h; sourceTree = "<group>"; };
+		FA596D941EC4494200922C5A /* BinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinViewController.m; sourceTree = "<group>"; };
+		FA596D951EC4494200922C5A /* BinTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinTableViewCell.h; sourceTree = "<group>"; };
+		FA596D961EC4494200922C5A /* BinTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinTableViewCell.m; sourceTree = "<group>"; };
+		FA596DD11EC4516E00922C5A /* common_systemshare_fb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_systemshare_fb@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA596D661EC4475C00922C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382EDD02C2762C9D09642692 /* libPods-ColorMisalignedImages研究.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA596D7F1EC4475C00922C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E258D8781C69DEF14FAFF546 /* libPods-ColorMisalignedImages研究UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E9FEAC21706A34804CD24FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE3E6E63F67C1E56B9C954B0 /* Pods-ColorMisalignedImages研究.debug.xcconfig */,
+				B5F8D74BBEE96824BD6A3332 /* Pods-ColorMisalignedImages研究.release.xcconfig */,
+				4E05B578E8B703CC6DC3C6B3 /* Pods-ColorMisalignedImages研究UITests.debug.xcconfig */,
+				400CDCDE31B224945929275B /* Pods-ColorMisalignedImages研究UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA2A97267C8FA766DE679B4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CE36FB0D4D4461B1DD2A29 /* libPods-ColorMisalignedImages研究.a */,
+				808A04DF643F7969A8598BD6 /* libPods-ColorMisalignedImages研究UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA17E6591ED66D7700BB9389 /* BinPerformanceOptimizeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FA17E65A1ED66D7700BB9389 /* BinPerformanceOptimizeHelper.h */,
+				FA17E65B1ED66D7700BB9389 /* BinPerformanceOptimizeHelper.m */,
+				FA17E65C1ED66D7700BB9389 /* BinSingleInstance.h */,
+				FA17E65D1ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.h */,
+				FA17E65E1ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.m */,
+				FA17E65F1ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.h */,
+				FA17E6601ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.m */,
+				FA17E6611ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.h */,
+				FA17E6621ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.m */,
+			);
+			name = BinPerformanceOptimizeHelper;
+			path = ../../../BinPerformanceOptimizeHelper/BinPerformanceOptimizeHelper;
+			sourceTree = "<group>";
+		};
+		FA596D601EC4475C00922C5A = {
+			isa = PBXGroup;
+			children = (
+				FA596D6B1EC4475C00922C5A /* ColorMisalignedImages研究 */,
+				FA596D851EC4475C00922C5A /* ColorMisalignedImages研究UITests */,
+				FA596D6A1EC4475C00922C5A /* Products */,
+				8E9FEAC21706A34804CD24FF /* Pods */,
+				BA2A97267C8FA766DE679B4D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA596D6A1EC4475C00922C5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA596D691EC4475C00922C5A /* ColorMisalignedImages研究.app */,
+				FA596D821EC4475C00922C5A /* ColorMisalignedImages研究UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA596D6B1EC4475C00922C5A /* ColorMisalignedImages研究 */ = {
+			isa = PBXGroup;
+			children = (
+				FA596DD11EC4516E00922C5A /* common_systemshare_fb@2x.png */,
+				FA596D911EC4478B00922C5A /* 03@2x.png */,
+				FA17E6591ED66D7700BB9389 /* BinPerformanceOptimizeHelper */,
+				FA596D6F1EC4475C00922C5A /* AppDelegate.h */,
+				FA596D701EC4475C00922C5A /* AppDelegate.m */,
+				FA596D721EC4475C00922C5A /* ViewController.h */,
+				FA596D731EC4475C00922C5A /* ViewController.m */,
+				FA596D931EC4494200922C5A /* BinViewController.h */,
+				FA596D941EC4494200922C5A /* BinViewController.m */,
+				FA596D951EC4494200922C5A /* BinTableViewCell.h */,
+				FA596D961EC4494200922C5A /* BinTableViewCell.m */,
+				FA596D751EC4475C00922C5A /* Main.storyboard */,
+				FA596D781EC4475C00922C5A /* Assets.xcassets */,
+				FA596D7A1EC4475C00922C5A /* LaunchScreen.storyboard */,
+				FA596D7D1EC4475C00922C5A /* Info.plist */,
+				FA596D6C1EC4475C00922C5A /* Supporting Files */,
+			);
+			path = "ColorMisalignedImages研究";
+			sourceTree = "<group>";
+		};
+		FA596D6C1EC4475C00922C5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA596D6D1EC4475C00922C5A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA596D851EC4475C00922C5A /* ColorMisalignedImages研究UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA596D861EC4475C00922C5A /* ColorMisalignedImages__UITests.m */,
+				FA596D881EC4475C00922C5A /* Info.plist */,
+			);
+			path = "ColorMisalignedImages研究UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA596D681EC4475C00922C5A /* ColorMisalignedImages研究 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA596D8B1EC4475C00922C5A /* Build configuration list for PBXNativeTarget "ColorMisalignedImages研究" */;
+			buildPhases = (
+				D8E709BB652ADAA931F4D420 /* [CP] Check Pods Manifest.lock */,
+				FA596D651EC4475C00922C5A /* Sources */,
+				FA596D661EC4475C00922C5A /* Frameworks */,
+				FA596D671EC4475C00922C5A /* Resources */,
+				1E1B899C09BC6D55FE4A713D /* [CP] Embed Pods Frameworks */,
+				913FB161D4A3F1DF741819D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorMisalignedImages研究";
+			productName = "ColorMisalignedImages研究";
+			productReference = FA596D691EC4475C00922C5A /* ColorMisalignedImages研究.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA596D811EC4475C00922C5A /* ColorMisalignedImages研究UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA596D8E1EC4475C00922C5A /* Build configuration list for PBXNativeTarget "ColorMisalignedImages研究UITests" */;
+			buildPhases = (
+				7828E8E63636FEAC94F7546A /* [CP] Check Pods Manifest.lock */,
+				FA596D7E1EC4475C00922C5A /* Sources */,
+				FA596D7F1EC4475C00922C5A /* Frameworks */,
+				FA596D801EC4475C00922C5A /* Resources */,
+				B19266450B02BDB2E7C2A1D8 /* [CP] Embed Pods Frameworks */,
+				15588E57F935754DD3F47FBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA596D841EC4475C00922C5A /* PBXTargetDependency */,
+			);
+			name = "ColorMisalignedImages研究UITests";
+			productName = "ColorMisalignedImages研究UITests";
+			productReference = FA596D821EC4475C00922C5A /* ColorMisalignedImages研究UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA596D611EC4475C00922C5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jerryzhang;
+				TargetAttributes = {
+					FA596D681EC4475C00922C5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 96V8LU22SM;
+						ProvisioningStyle = Manual;
+					};
+					FA596D811EC4475C00922C5A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 96V8LU22SM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA596D681EC4475C00922C5A;
+					};
+				};
+			};
+			buildConfigurationList = FA596D641EC4475C00922C5A /* Build configuration list for PBXProject "ColorMisalignedImages研究" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA596D601EC4475C00922C5A;
+			productRefGroup = FA596D6A1EC4475C00922C5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA596D681EC4475C00922C5A /* ColorMisalignedImages研究 */,
+				FA596D811EC4475C00922C5A /* ColorMisalignedImages研究UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA596D671EC4475C00922C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA596DD21EC4516E00922C5A /* common_systemshare_fb@2x.png in Resources */,
+				FA596D7C1EC4475C00922C5A /* LaunchScreen.storyboard in Resources */,
+				FA596D921EC4478B00922C5A /* 03@2x.png in Resources */,
+				FA596D791EC4475C00922C5A /* Assets.xcassets in Resources */,
+				FA596D771EC4475C00922C5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA596D801EC4475C00922C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15588E57F935754DD3F47FBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMisalignedImages研究UITests/Pods-ColorMisalignedImages研究UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E1B899C09BC6D55FE4A713D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMisalignedImages研究/Pods-ColorMisalignedImages研究-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7828E8E63636FEAC94F7546A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		913FB161D4A3F1DF741819D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMisalignedImages研究/Pods-ColorMisalignedImages研究-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19266450B02BDB2E7C2A1D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorMisalignedImages研究UITests/Pods-ColorMisalignedImages研究UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E709BB652ADAA931F4D420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA596D651EC4475C00922C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA17E6651ED66D7700BB9389 /* UIImageView+BinPerformanceOptimizeHelper.m in Sources */,
+				FA596D741EC4475C00922C5A /* ViewController.m in Sources */,
+				FA596D981EC4494200922C5A /* BinTableViewCell.m in Sources */,
+				FA17E6661ED66D7700BB9389 /* UILabel+BinPerformanceOptimizeHelper.m in Sources */,
+				FA17E6641ED66D7700BB9389 /* UIButton+BinPerformanceOptimizeHelper.m in Sources */,
+				FA596D711EC4475C00922C5A /* AppDelegate.m in Sources */,
+				FA17E6631ED66D7700BB9389 /* BinPerformanceOptimizeHelper.m in Sources */,
+				FA596D971EC4494200922C5A /* BinViewController.m in Sources */,
+				FA596D6E1EC4475C00922C5A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA596D7E1EC4475C00922C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA596D871EC4475C00922C5A /* ColorMisalignedImages__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA596D841EC4475C00922C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA596D681EC4475C00922C5A /* ColorMisalignedImages研究 */;
+			targetProxy = FA596D831EC4475C00922C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA596D751EC4475C00922C5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA596D761EC4475C00922C5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA596D7A1EC4475C00922C5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA596D7B1EC4475C00922C5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA596D891EC4475C00922C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA596D8A1EC4475C00922C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA596D8C1EC4475C00922C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3E6E63F67C1E56B9C954B0 /* Pods-ColorMisalignedImages研究.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96V8LU22SM;
+				INFOPLIST_FILE = "ColorMisalignedImages研究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bin.enterprise.ColorMisalignedImages--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dbfdccd8-ac8a-4c7d-bb53-5cb56972624d";
+				PROVISIONING_PROFILE_SPECIFIER = DebugForAllApp;
+			};
+			name = Debug;
+		};
+		FA596D8D1EC4475C00922C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F8D74BBEE96824BD6A3332 /* Pods-ColorMisalignedImages研究.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96V8LU22SM;
+				INFOPLIST_FILE = "ColorMisalignedImages研究/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bin.enterprise.ColorMisalignedImages--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dbfdccd8-ac8a-4c7d-bb53-5cb56972624d";
+				PROVISIONING_PROFILE_SPECIFIER = DebugForAllApp;
+			};
+			name = Release;
+		};
+		FA596D8F1EC4475C00922C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E05B578E8B703CC6DC3C6B3 /* Pods-ColorMisalignedImages研究UITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 96V8LU22SM;
+				INFOPLIST_FILE = "ColorMisalignedImages研究UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bin.enterprise.ColorMisalignedImages--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ColorMisalignedImages研究";
+			};
+			name = Debug;
+		};
+		FA596D901EC4475C00922C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400CDCDE31B224945929275B /* Pods-ColorMisalignedImages研究UITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 96V8LU22SM;
+				INFOPLIST_FILE = "ColorMisalignedImages研究UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bin.enterprise.ColorMisalignedImages--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ColorMisalignedImages研究";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA596D641EC4475C00922C5A /* Build configuration list for PBXProject "ColorMisalignedImages研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA596D891EC4475C00922C5A /* Debug */,
+				FA596D8A1EC4475C00922C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA596D8B1EC4475C00922C5A /* Build configuration list for PBXNativeTarget "ColorMisalignedImages研究" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA596D8C1EC4475C00922C5A /* Debug */,
+				FA596D8D1EC4475C00922C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA596D8E1EC4475C00922C5A /* Build configuration list for PBXNativeTarget "ColorMisalignedImages研究UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA596D8F1EC4475C00922C5A /* Debug */,
+				FA596D901EC4475C00922C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA596D611EC4475C00922C5A /* Project object */;
+}
