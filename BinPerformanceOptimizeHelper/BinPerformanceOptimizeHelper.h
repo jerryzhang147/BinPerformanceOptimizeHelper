@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "BinSingleInstance.h"
+@class SDImageCache;
 
 typedef NSBlockOperation BinPerformanceOptimizeOpreation;
 typedef void(^BinPerformanceOptimizeCompletionBlock)(UIImage *image);

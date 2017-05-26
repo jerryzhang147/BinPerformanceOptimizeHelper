@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "BinPerformanceOptimizeHelper"
   s.version      = "1.0.0"
-  s.summary      = "A tool for add app performance."
+  s.summary      = "A tool for improving app performance by no Color Blended Layers."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-    a tool
+    A tool for improving app performance by no Color Blended Layers and no Color Misaligned Images.
                    DESC
 
   s.homepage     = "https://github.com/jerryzhang147/BinPerformanceOptimizeHelper"
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "BinPerformanceOptimizeHelper/**/*.{h,m}"
-#s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-   s.framework  = "UIKit"
+  s.framework  = "UIKit"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
@@ -130,9 +130,9 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-   s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   s.dependency "SDWebImage", "~> 3.0"
+  s.dependency = "SDWebImage", "~>4.0.0"
 
 end
